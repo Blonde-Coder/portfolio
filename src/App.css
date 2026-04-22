@@ -1,21 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background: #222;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-section {
-  background: white;
-  margin: 15px;
-  padding: 15px;
-  border-radius: 8px;
+.mainDiv{
+    display: flex;
+    
 }
