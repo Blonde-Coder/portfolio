@@ -1,4 +1,36 @@
 .mainDiv{
+    width: 1230px;
+    background-color: black;
+    height: 570px;
     display: flex;
-    
-}
+    color: #f0f8ff;
+    }
+    .header{
+        background-color: #5edf47;
+        display: flex;
+        width: 1230px;
+        height: 30px;
+        border: 100px; 
+        border-color: #5edf47; 
+        padding: -20px; 
+        color: aliceblue;  
+        align-items: center;  
+        justify-items: right; 
+        font-size: 12px;
+    }
+    p{
+       margin: 10px;
+       font: 1em sans-serif;
+       background-color:black ;
+       width: 40px;
+       align-items: center;
+       padding-left: 8px;
+       border-radius: 10px;
+       height: 20px;
+       padding-top: 2px;
+       text-align: left;
+      
+
+       
+
+    }
