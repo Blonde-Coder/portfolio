@@ -5,8 +5,7 @@ export default function Header() {
        <button> About</button>
         <button>Service</button>
        <button>Skills</button>
-        <button><link rel="" href="Blog" /></button>
-         
+        <button>Blog</button>
 
     </header>
   );

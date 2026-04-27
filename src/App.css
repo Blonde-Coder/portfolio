@@ -18,19 +18,25 @@
         justify-items: right; 
         font-size: 12px;
     }
-    p{
+    button{
        margin: 10px;
        font: 1em sans-serif;
        background-color:black ;
-       width: 40px;
+       width: 55px;
        align-items: center;
        padding-left: 8px;
        border-radius: 10px;
-       height: 20px;
+       height: 25px;
        padding-top: 2px;
        text-align: left;
-      
-
-       
-
+       color: #5edf47;
+    }
+    .myImage{
+        width: 618px;
+        height:500px;
+        padding: 20px;
+       margin-top: -60px;
+    }
+    section{
+        display: flex;
     }
