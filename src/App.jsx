@@ -2,8 +2,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import './App.css';
-import myImage from "../src/assets/images/myImage.jpg";
-
+import  myPics from  "./assets/images/myPics.jpeg"
 function App() {
   return ( 
     <div className="mainDiv">
@@ -12,15 +11,17 @@ function App() {
       <About />
       <Skills />
       <section>
-         <div>
-        <img className="myImage" src={myImage} alt="My Image" />
-      </div>
-        <h2>Projects</h2>
-        <p>My first React portfolio project</p>
+        <div className="section-div-one">
+             <img  className="my-image" src={myPics} alt="my image"/>
+          </div> 
+          
+          <div className="section-div-two">
+    <h1> welcome to my portifolio</h1>
+          </div>
+        
       </section> 
     </div>
     </div>
   );
 }
-
 export default App;
