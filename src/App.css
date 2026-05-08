@@ -10,7 +10,7 @@
     .header{
         background-color: rgba(8, 4, 0, 0.767);;
         display: flex;
-        width: 1250px;
+        width: 1550px;
         height: 30px;
         border: 100px; 
         border-color: #1d5613; 
@@ -28,10 +28,12 @@
     .second-header-div{
         width: 500px;
         
-        
+        margin-left: 250px;
+      
     }
      .header-flex {
         display: flex;
+        width: ;
      }
 .first-header-div{
     width: 500px;
@@ -75,12 +77,14 @@
         display: flex;
     }
 .section-div-two{
-    
+    margin-left:-600px;
+    margin-top: 50px;
 }
 
 h1{
     font-size:80px ;
     color: #1d5613;
+    
 }
 h1:hover{
        color:chartreuse;
@@ -94,6 +98,8 @@ h1:hover{
     width: 400px;
     background: #2e871f;
     height: 3px;
+    margin-left:200px;
+    margin-top: 100px;
        }
 .line:hover{
     background-color:chartreuse ;
@@ -120,7 +126,7 @@ h1:hover{
     margin-top: 15px;
     width: 50px;
     height: 20px; 
-    margin-left: -80px;
+    margin-left: -50px;
 }
 .menu:hover{
  cursor: pointer;
