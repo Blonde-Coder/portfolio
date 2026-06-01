@@ -6,7 +6,7 @@ export default function Header() {
     <header className="header">
       <div className=" header-flex">
         <div className=" first-header-div">
-<p className="me">Olayinka Christianah Olabiis</p>
+<p className="me">Olayinka Christianah Olabisi</p>
         </div>
       <div className="second-header-div">
         <button className="header-b"> Home</button>
