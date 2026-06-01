@@ -1,20 +1,23 @@
-import Header from "./Header";
+
 import About from "./About";
 import Skills from "./Skills";
 import { useNavigate } from "react-router-dom";
+import Header from "./Header"; // adjust path
 import "../App.css";
-import "../assets/images/myPics.jpeg"
+import myPics from "../assets/images/myPics.jpeg";
+
 function Portfolio() {
   const navigate = useNavigate();
 
   return (
     <div className="mainDiv">
       <Header />
-      
-      <section>
+
+      <section className="sec">
         <div className="section-div-one">
-          {/* <img className="my-image" src={myPics} alt="my image" /> */}
+          <img className="my-image" src={myPics} alt="my image" />
         </div>
+
         <div className="section-div-two">
           <p className="line"></p>
 
